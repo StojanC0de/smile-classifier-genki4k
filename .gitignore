@@ -1,0 +1,66 @@
+# =========================
+# Python / bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# IDEs / editors
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# ML artifacts / checkpoints
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# =========================
+# Data
+# =========================
+data/
+datasets/
+files/
+**/files/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# =========================
+# Logs / experiment outputs
+# =========================
+logs/
+runs/
+results/
+wandb/
+mlruns/
+
+# =========================
+# Temporary / misc
+# =========================
+*.tmp
+*.log
